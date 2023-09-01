@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.react-whatsapp-widget {
+  position: fixed;
+  bottom: 20px;
+  z-index: 9999;
+}
+.react-whatsapp-widget__wrapper {
+  background-color: #25d366 !important; /* Change to your desired color */
+}
+
+.react-whatsapp-widget__icon path {
+  fill: #fff !important; /* Change to your desired color */
+}
+
+.react-whatsapp-widget__cta {
+  color: #fff !important; /* Change to your desired color */
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #ecf2f3; */
+  background-color: rgb(242, 242, 242);
+  max-width: 100%;
+  max-height: 100%;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.f_flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #76e1ef, #8ef3dd);
+  /* box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff; */
+}
+.btn_shadow :hover{
+  background: linear-gradient(145deg, #a8d2ee, #d18a8a);
+  /* box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff; */
+}
+
+.box_shodow {
+  background: linear-gradient(145deg, #d8f4f4, #ffffff);
+  box-shadow: px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+.row, .left, .right {
+  width: 100%;
+}
+.top {
+  margin-top: 80px;
+}
+.mtop {
+  margin-top: 40px;
+}
+.heading {
+  margin: 50px 0 50px 0;
+}
+
+.heading h1 {
+  font-size: 49px;
+  color: #3c3e41;
+}
+h1 {
+  color: #3c3e41;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+p {
+  color: #3c3e41;
+}
+.text-center {
+  text-align: center;
+}
+
+.textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 19px;
+  outline: none;
+  border: 2px solid #cbe1f0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+
+
+
+body {
+  /* overflow-y: hidden;  */
+
+  overflow-x: hidden; 
+}
+
+@media (max-width: 480px){
+._2qp0Z {
+    width: 89px;
+    height: 89px;
+    font-size: 3.5em;
+}
+}
